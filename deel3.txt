@@ -1,0 +1,7 @@
+Je hebt nu in resources/views een map met de naam layouts. Hierin staat het bestand app.blade.php.
+Dit bestand heeft een standaard html layout met enkele @yield functies.
+In andere bestanden worden de desbetreffende @yield namen aangeroepen en wordt op die plaats de code ingevuld.
+Bijvoorbeeld: resources/views/klantegegevens/indes.blade.php
+Hierin staat op de eerste regel "@extends('layouts.app')". Het bestand verwijst naar app.blade.php.
+Tevens zijn er sections opgenomen waar je teksten/code plaatst die dan in de app.blade.php op
+de juiste positie wordt ingevuld.
