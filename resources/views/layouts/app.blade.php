@@ -8,8 +8,13 @@
     <title>Opdracht 3 - @yield('title')</title>
 </head>
 <body class="min-h-screen bg-gray-100">
-    <div class="bg-green-200 border-green-400 border-b p-4 m-4 rounded">
-        @yield('content')
+    <div class="container">
+        <div id="menu">
+            @include('layouts.menu')
+        </div>
+        <div class="bg-green-200 border-green-400 border-b p-4 m-4 rounded">
+            @yield('content')
+        </div>
     </div>
 </body>
 </html>
